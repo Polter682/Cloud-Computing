@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page 1</title>
+    <style>
+      body {
+        background-color: #c7b0d8;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      button {
+        background-color: #ffffff;
+        color: #c7b0d8;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+      }
+      button:hover {
+        background-color: #e6e6e6;
+        cursor: pointer;
+      }
+      .ghost-icon {
+        margin-right: 10px;
+      }
+      .sword-icon {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Page 1</h1>
+    <p>Welcome to page 1.</p>
+    <br>
+    <button onclick="window.location.href='page2.html'">
+      <span class="ghost-icon">🕸️</span>
+      <span class="sword-icon">⚔️</span>
+      Go to Page 2
+    </button>
+  </body>
+</html>
